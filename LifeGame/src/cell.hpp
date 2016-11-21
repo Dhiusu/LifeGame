@@ -16,11 +16,13 @@ class Cell
 
 public:
 
-  Cell();
+  Cell(const int x, const int y);
   ~Cell();
 
   void set_is_alive(bool is_alive);
   bool is_alive();
+
+  Point2D get_point(); 
 
 private:
 

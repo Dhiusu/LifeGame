@@ -24,7 +24,7 @@ void Init(LifeGame& game)
 
   // 生きているセル座標を設定（[0, 0], [1, 2]）
   // TODO: とりあえず、ランダムで生きているセルを設定
-  game.SetAliveCellsForRandom(kMaxCell, 5);
+  game.SetAliveCellsForRandom(kMaxCell, 150);
   game.OutputCells();
   cout << "ALIVE CELL COUNT :" << game.GetAliveCellCount() << endl;
   // エンジンにルールを設定

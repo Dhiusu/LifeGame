@@ -51,6 +51,12 @@ public:
   //　状態
   //********************
 
+  void Condition();
+  void ConditionA(Cell* cell);
+  void ConditionB(Cell* cell);
+  void ConditionC(Cell* cell);
+  void ConditionD(Cell* cell);
+
   //void Reset();
   void Update();
 
